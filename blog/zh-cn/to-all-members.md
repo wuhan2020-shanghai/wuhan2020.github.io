@@ -142,7 +142,11 @@ date: 2019-01-28
 
 基于上述思想，项目目前的<font color='#FF0000'>形态架构</font>大致是下面这个样子（并不严谨版）：
 
+<<<<<<< HEAD
  ![](/images/wuhan2020-architect.webp)
+=======
+ ![](../../images/wuhan2020-architect.webp)
+>>>>>>> origin/dev
 
 <center>持续更新，以Github上的为准</center>
 
@@ -154,7 +158,11 @@ date: 2019-01-28
 
 最上层是基于本项目落地的数据平台的各种应用，包括数据门户、数据可视化、数据同步等，相信随着项目的推进，还会有更多有意思的应用出现。
 
+<<<<<<< HEAD
   ![](/images/wuhan2020-demo-page.webp)
+=======
+  ![](../../images/wuhan2020-demo-page.webp)
+>>>>>>> origin/dev
 
 <center>持续更新，以https://github.com/wuhan2020为准</center>
 
