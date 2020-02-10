@@ -15,7 +15,7 @@ Ciao a tutti i volontari, siamo il core team volontario di wuhan2020, un progett
 2. invitare più persone ad unirsi al progetto svolgendo un ruolo importante sulla base delle proprie capacità professionali;
 3. portare a successo l'organizzazione collaborativa con lo spirito della comunità OpenSource.
 
-Accesso web al progetto: Piattaforma Informativa per la Prevenzione Epidemica del nuovo coronavirus 2019-nCoV[https://wuhan2020.kaiyuanshe.cn](https://wuhan2020.kaiyuanshe.cn/)
+Accesso web al progetto: Piattaforma Informativa per la Prevenzione Epidemica del nuovo coronavirus 2019-nCoV[https://wuhan2020.kaiyuanshe.cn](https://wh.opensource-service.cn/)
 
 ## OPEN SOURCE & COLLABORAZIONE
 

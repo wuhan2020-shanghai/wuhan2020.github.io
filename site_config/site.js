@@ -9,7 +9,7 @@ export default {
       { value: 'en-us', text: 'English' },
       { value: 'ja-jp', text: '日本語' },
       { value: 'it-it', text: 'Italiano' },
-      { value: 'fr-fr', text: 'French' },
+      { value: 'fr-fr', text: 'Français' },
     ], // 支持的语言列表
     defaultLanguage: 'zh-cn',
     'en-us': {
@@ -40,14 +40,14 @@ export default {
                 link: '/en-us/community/index.html',
             },
             {
-                key: 'download',
-                text: 'PRODUCT',
-                link: '/en-us/blog/download.html',
+                key: 'list',
+                text: 'PROJECTS',
+                link: '/en-us/project/index.html',
             },
             {
                 key: 'mis',
                 text: '2019-NCOV INFORMATION PLATFORM',
-                link: 'https://wuhan2020.kaiyuanshe.cn',
+                link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -88,7 +88,7 @@ export default {
                 },
             ],
         },
-        copyright: 'Copyright © 2020 Wuahan2020',
+        copyright: 'Copyright © 2020 Wuhan2020',
         sponsors: {
           title: 'Sponsors',
           list: [
@@ -109,17 +109,17 @@ export default {
         pageMenu: [
             {
                 key: 'home', // 用作顶部菜单的选中
-                text: 'CASA',
+                text: 'HOME',
                 link: '/it-it/index.html',
             },
             {
                 key: 'docs',
-                text: 'DOCS',
+                text: 'DOCUMENTAZIONE',
                 link: '/it-it/docs/overview/what-is-wuhan2020.html',
             },
             {
                 key: 'developers',
-                text: 'CONTRIBUTORI',
+                text: 'SOSTENITORI',
                 link: '/it-it/docs/developers/developers_dev.html',
             },
             {
@@ -129,38 +129,38 @@ export default {
             },
             {
                 key: 'community',
-                text: 'COMUNITÀ',
+                text: 'COMMUNITY',
                 link: '/it-it/community/index.html',
             },
             {
-                key: 'download',
-                text: 'PRODOTTO',
-                link: '/it-it/blog/download.html',
+                key: 'list',
+                text: 'RISULTATI',
+                link: '/it-it/project/index.html',
             }
             ,
             {
               key: 'mis',
               text: 'PIATTAFORMA INFORMATIVA 2019-NCOV',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+              link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
-            title: 'Visione',
-            content: 'Unisciti come uno e scaccia la peste!',
+            title: 'Il Nostro Motto',
+            content: 'Tutti insieme uniti, ce la faremo !',
         },
         documentation: {
             title: 'Documentazione',
             list: [
                 {
-                    text: "Che cos'è Wuhan2020?",
+                    text: "Di cosa si occupa Wuhan2020?",
                     link: '/it-it/docs/overview/what-is-wuhan2020.html',
                 },
                 {
-                    text: 'Avvio veloce',
+                    text: 'Inizia subito',
                     link: '/it-it/docs/dev/quickstart.html',
                 },
                 {
-                    text: 'Segnala un problema con il documento',
+                    text: 'Segnala un problema riguardo il documento',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
                 },
                 {
@@ -170,14 +170,14 @@ export default {
             ],
         },
         resources: {
-            title: 'risorse',
+            title: 'Risorse',
             list: [
                 {
                     text: 'Blog',
                     link: '/it-it/blog/index.html',
                 },
                 {
-                    text: 'Comunità',
+                    text: 'Community',
                     link: '/it-it/community/index.html',
                 },
             ],
@@ -227,15 +227,15 @@ export default {
                 link: '/ja-jp/community/index.html',
             },
             {
-                key: 'download',
+                key: 'list',
                 text: '製品',
-                link: '/ja-jp/blog/download.html',
+                link: '/ja-jp/project/index.html',
             }
             ,
             {
               key: 'mis',
               text: '情報収集プラットフォーム',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+              link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -321,14 +321,14 @@ export default {
                 link: '/zh-cn/community/index.html',
             },
             {
-                key: 'download',
-                text: '产品',
-                link: '/zh-cn/blog/download.html',
+                key: 'list',
+                text: '项目列表',
+                link: '/zh-cn/project/index.html',
             },
             {
               key: 'mis',
               text: '新型冠状病毒防疫信息平台',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+              link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
@@ -390,79 +390,79 @@ export default {
         pageMenu: [
             {
                 key: 'home',
-                text: '首页',
+                text: 'HOME',
                 link: '/fr-fr/index.html',
             },
             {
                 key: 'docs',
-                text: '文档',
+                text: 'DOCS',
                 link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
             },
             {
                 key: 'developers',
-                text: '贡献者',
+                text: 'CONTRIBUTORS',
                 link: '/fr-fr/docs/developers/developers_dev.html',
             },
             {
                 key: 'blog',
-                text: '博客',
+                text: 'BLOG',
                 link: '/fr-fr/blog/index.html',
             },
             {
                 key: 'community',
-                text: '社区',
+                text: 'COMMUNITY',
                 link: '/fr-fr/community/index.html',
             },
             {
-                key: 'download',
-                text: '产品',
-                link: '/fr-fr/blog/download.html',
+                key: 'list',
+                text: 'PRODUCT',
+                link: '/fr-fr/project/index.html',
             },
             {
-              key: 'mis',
-              text: '新型冠状病毒防疫信息平台',
-              link: 'https://wuhan2020.kaiyuanshe.cn',
+                key: 'mis',
+                text: '2019-NCOV INFORMATION PLATFORM',
+                link: 'https://wh.opensource-service.cn/',
             },
         ],
         vision: {
-            title: '愿景',
-            content: '众志成城，共克时艰！',
+            title: 'Vision',
+            content: 'Unite as one and drive out the plague!',
         },
         documentation: {
-            title: '文档',
+            title: 'Documentation',
             list: [
                 {
-                    text: 'Wuhan2020 项目是干什么的？',
+                    text: 'What is Wuhan2020?',
                     link: '/fr-fr/docs/overview/what-is-wuhan2020.html',
                 },
                 {
-                    text: '快速开始',
+                    text: 'Quick Start',
                     link: '/fr-fr/docs/dev/quickstart.html',
                 },
                 {
-                    text: '报告文档问题',
+                    text: 'Report a doc issue',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io/issues/new',
                 },
                 {
-                    text: '在Github上编辑此文档',
+                    text: 'Edit This Page on GitHub',
                     link: 'https://github.com/wuhan2020/wuhan2020.github.io',
                 }
             ],
         },
         resources: {
-            title: '资源',
+            title: 'Resources',
             list: [
                 {
-                    text: '博客',
+                    text: 'Blog',
                     link: '/fr-fr/blog/index.html',
                 },
                 {
-                    text: '社区',
+                    text: 'Community',
                     link: '/fr-fr/community/index.html',
                 },
             ],
         },
-        copyright: 'Copyright © 2020 Wuhan2020',
+        copyright: 'Copyright © 2020 Wuahan2020',
         sponsors: {
           title: 'Sponsors',
           list: [

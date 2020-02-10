@@ -1,4 +1,4 @@
-import React from 'react';
+mport React from 'react';
 
 export default {
     'en-us': {
@@ -8,10 +8,17 @@ export default {
             list: [
                 {
                     img: '/images/blog/wuhan2020.png',
-                    title: 'Wuhan加油项目新流程发布',
-                    content: 'Wuhan加油项目新流程发布',
+                    title: 'Wuhan2020 Official Announcement',
+                    content: 'Wuhan2020 Official Announcement',
                     dateStr: 'Jan 29th，2020',
                     link: '/en-us/blog/wuhan2020-official-announcement.html',
+                },
+                {
+                  img: '/images/blog/wuhan2020.png',
+                  title: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis',
+                  content: 'How to Join Wuhan2020 Open Source Project, and Help Wuhan Survive the Coronavirus Crisis ',
+                  dateStr: 'Feb 1st, 2020',
+                  link: '/en-us/blog/how-to-join-wuhan2020.html',
                 },
             ],
         },
@@ -30,6 +37,11 @@ export default {
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
                     link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_EN.md#slack-channel-navigation',
+                },
+                {
+                  img: '/images/channels/weixin_official_account.jpeg',
+                  imgHover: '/images/channels/weixin_official_account.jpeg',
+                  title: '@WeChat Official Account',
                 }
             ],
         },
@@ -61,7 +73,7 @@ export default {
         },
     },
     'it-it': {
-        barText: 'Comunità',
+        barText: 'Community',
         events: {
             title: 'Eventi e notizie',
             list: [
@@ -89,6 +101,11 @@ export default {
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
                     link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_IT.md#navigazione-del-canale-slack',
+                },
+                {
+                  img: '/images/channels/weixin_official_account.jpeg',
+                  imgHover: '/images/channels/weixin_official_account.jpeg',
+                  title: '@WeChat Official Account',
                 }
             ],
         },
@@ -104,7 +121,7 @@ export default {
                 {
                     img: '/images/channels/github_gray.svg',
                     title: 'Problema',
-                    content: <span>Invia un <a href="https://github.com/wuhan2020/wuhan2020/issues/new">nuovo numero</a>.</span>,
+                    content: <span>Invia una <a href="https://github.com/wuhan2020/wuhan2020/issues/new">nuovo issue</a>.</span>,
                 },
                 {
                     img: '/images/documents.png',
@@ -148,6 +165,11 @@ export default {
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
                     link: 'https://github.com/wuhan2020/wuhan2020/blob/master/README_JP.md#slack%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB%E3%83%8A%E3%83%93%E3%82%B2%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3',
+                },
+                {
+                  img: '/images/channels/weixin_official_account.jpeg',
+                  imgHover: '/images/channels/weixin_official_account.jpeg',
+                  title: '@WeChat Official Account',
                 }
             ],
         },
@@ -187,30 +209,37 @@ export default {
                   img: '/images/blog/wuhan2020.png',
                   title: '致 WUHAN2020 开源社区全体成员的一封信',
                   content: '致 WUHAN 2020 开源社区全体成员的一封信',
-                  dateStr: 'Jan 28th，2020',
+                  dateStr: '2020年1月28日',
                   link: '/zh-cn/blog/to-all-members.html',
                 },
                 {
                     img: '/images/blog/wuhan2020.png',
                     title: 'Wuhan加油项目新流程发布',
                     content: 'Wuhan加油项目新流程发布',
-                    dateStr: 'Jan 29th，2020',
-                    link: '/blog/zh-cn/wuhan2020-official-announcement.html',
+                    dateStr: '2020年1月29日',
+                    link: '/zh-cn/blog/wuhan2020-official-announcement.html',
                 },
                 {
-                    img: '/images/blog/mail-icon.jpg',
-                    title: '致 WUHAN2020 开源社区全体成员的一封信',
-                    content: '致 WUHAN 2020 开源社区全体成员的一封信',
-                    dateStr: 'Feb 2nd，2020',
-                    link: '/blog/zh-cn/to-all-members.md',
+                  img: '/images/blog/wuhan2020.png',
+                  title: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
+                  content: '如何加入到 Wuhan2020 开源项目，打赢这场没有硝烟的战争？',
+                  dateStr: '2020年2月1日',
+                  link: '/zh-cn/blog/how-to-join-wuhan2020.html',
                 },
                 {
                   img: '/images/blog/media/banner.webp',
                   title: 'WUHAN2020官宣渠道汇总',
                   content: 'WUHAN2020官宣渠道汇总',
-                  dateStr: 'Feb 7th，2020',
+                  dateStr: '2020年2月7日',
                   link: '/zh-cn/blog/wuhan2020-media-channel.html',
                 },
+                {
+                  img: '/images/blog/wuhan2020.png',
+                  title: '疫情知识 -- 新型冠状病毒防护指南',
+                  content: '疫情知识 -- 新型冠状病毒防护指南',
+                  dateStr: '2020年2月9日',
+                  link: '/zh-cn/blog/coronavirus-protection-guide.html',
+                }
             ],
         },
         contacts: {
@@ -228,7 +257,12 @@ export default {
                     imgHover: '/images/channels/slack_green.svg',
                     title: '@Slack',
                     link: 'https://github.com/wuhan2020/wuhan2020#slack%E9%A2%91%E9%81%93%E5%AF%BC%E8%88%AA',
-                }
+                },
+                {
+                img: '/images/channels/weixin_official_account.jpeg',
+                imgHover: '/images/channels/weixin_official_account.jpeg',
+                title: '微信公众号',
+              }
             ],
         },
         contributorGuide: {
@@ -265,8 +299,8 @@ export default {
             list: [
                 {
                     img: '/images/blog/wuhan2020.png',
-                    title: 'Wuhan加油项目新流程发布',
-                    content: 'Wuhan加油项目新流程发布',
+                    title: 'Wuhan2020 Official Announcement',
+                    content: 'Wuhan2020 Official Announcement',
                     dateStr: 'Jan 29th，2020',
                     link: '/fr-fr/blog/wuhan2020-official-announcement.html',
                 },
